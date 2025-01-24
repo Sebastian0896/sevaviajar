@@ -1,5 +1,3 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
 import ServiciosPrincipales from '@/components/ServiciosPrincipales';
 
 export default function Home() {
