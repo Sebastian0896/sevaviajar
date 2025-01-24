@@ -20,7 +20,7 @@ export default function Acerca() {
             {/* Image */}
             <div className="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">
               <img
-                src="/hero-image.jpg"
+                src="/heroImage.jpg"
                 alt="Fundador de Sevaviajar"
                 className="md:rounded-md"
               />
