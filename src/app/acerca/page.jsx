@@ -15,7 +15,7 @@ export default function Acerca() {
         </section> */}
   
         {/* Founder Section */}
-        <section className="md:py-16 bg-white md:my-12">
+        <section className="md:py-16 bg-white my-12">
           <div className="container mx-auto flex flex-col md:flex-row">
             {/* Image */}
             <div className="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">

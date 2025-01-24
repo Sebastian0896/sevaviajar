@@ -36,7 +36,7 @@ export default function Servicios() {
   ];
 
   return (
-    <section id="servicios" className="py-16 md:my-12 bg-white">
+    <section id="servicios" className="py-16 my-12 bg-white">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8">Nuestros Servicios</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4">
