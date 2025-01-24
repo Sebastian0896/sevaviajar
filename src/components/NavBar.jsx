@@ -26,8 +26,8 @@ export default function Navbar() {
 
         {/* Fullscreen Menu */}
         <div
-          className={`fixed inset-0 bg-white transition-transform transform ${
-            isOpen ? 'translate-x-0 bg-slate-900' : 'translate-x-full'
+          className={`fixed inset-0 md:bg-white bg-slate-900 transition-transform transform ${
+            isOpen ? 'translate-x-0' : 'translate-x-full'
           } md:static md:translate-x-0 md:flex md:items-end`}
         >
           <button
