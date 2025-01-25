@@ -69,6 +69,16 @@ export default function Navbar() {
                 </span>
               </Link>
             </li>
+            <li>
+              <Link href="/preguntas-frecuentes">
+                <span
+                  className="md:text-black text-white hover:text-blue-600 font-medium text-md cursor-pointer"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Contacto
+                </span>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
