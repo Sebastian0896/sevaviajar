@@ -8,7 +8,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="md:w-96 z-50">
+    <nav className="md:w-auto z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         {/* <Link href="/">
@@ -70,9 +70,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/preguntas-frecuentes">
+              <Link href="/preguntas-frecuentes" className='bg-blue-600 p-2 rounded-md'>
                 <span
-                  className="md:text-black text-white hover:text-blue-600 font-medium text-md cursor-pointer"
+                  className="text-white hover:text-blue-200 font-medium text-md cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
                   Preguntas Frecuentes
