@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { FaPassport, FaPlaneDeparture, FaUserTie } from 'react-icons/fa';
+import { FaPassport, FaUserTie } from 'react-icons/fa';
+import { GrVisa } from "react-icons/gr";
 
 export default function ServiciosPrincipales() {
   return (
@@ -11,7 +12,7 @@ export default function ServiciosPrincipales() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Servicio 1: Solicitud de visa B1/B2 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-            <FaPlaneDeparture className="text-blue-600 text-4xl mb-4" />
+            <GrVisa className="text-blue-600 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Solicitud de Visa B1/B2
             </h3>
