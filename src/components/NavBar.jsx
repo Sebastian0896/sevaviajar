@@ -75,7 +75,7 @@ export default function Navbar() {
                   className="md:text-black text-white hover:text-blue-600 font-medium text-md cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
-                  Contacto
+                  Preguntas Frecuentes
                 </span>
               </Link>
             </li>
