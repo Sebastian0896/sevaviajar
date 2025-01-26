@@ -6,13 +6,13 @@ export default function ServiciosPrincipales() {
   return (
     <section id="servicios" className="py-16">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8">
+        <h2 className="text-3xl font-bold text-center mb-8 text-[#024383]">
           Nuestros Servicios Principales
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Servicio 1: Solicitud de visa B1/B2 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-            <GrVisa className="text-blue-600 text-4xl mb-4" />
+            <GrVisa className="text-blue-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Solicitud de Visa B1/B2
             </h3>
@@ -22,7 +22,7 @@ export default function ServiciosPrincipales() {
           </div>
           {/* Servicio 2: Solicitud de pasaporte */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-            <FaPassport className="text-blue-600 text-4xl mb-4" />
+            <FaPassport className="text-red-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Solicitud de Pasaporte
             </h3>
@@ -32,7 +32,7 @@ export default function ServiciosPrincipales() {
           </div>
           {/* Servicio 3: Asesoría personalizada */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
-            <FaUserTie className="text-blue-600 text-4xl mb-4" />
+            <FaUserTie className="text-purple-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Asesoría Personalizada
             </h3>
@@ -44,7 +44,7 @@ export default function ServiciosPrincipales() {
         {/* Enlace a Ver Todos los Servicios */}
         <div className="text-center mt-10">
           <Link href="/servicios">
-            <span className="inline-block bg-blue-600 text-white font-medium py-3 px-6 rounded-lg shadow hover:bg-blue-700 cursor-pointer">
+            <span className="inline-block bg-[#024383] text-white font-medium py-3 px-6 rounded-lg shadow hover:bg-blue-700 cursor-pointer">
               Ver Todos los Servicios
             </span>
           </Link>

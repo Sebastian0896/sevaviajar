@@ -4,11 +4,6 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 
-export const metadata = {
-  title: "Sevaviajar",
-  description: "Consultoría Migratoria y Consular",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

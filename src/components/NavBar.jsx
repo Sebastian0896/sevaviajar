@@ -7,6 +7,8 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+ 
+
   return (
     <nav className="md:w-auto z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
@@ -31,7 +33,7 @@ export default function Navbar() {
           } md:static md:translate-x-0 md:flex md:items-end`}
         >
           <button
-            className="absolute top-4 right-4 text-2xl text-gray-700 md:hidden"
+            className="absolute top-4 right-4 text-2xl text-white md:hidden"
             onClick={toggleMenu}
             aria-label="Close Menu"
           >
@@ -42,7 +44,7 @@ export default function Navbar() {
             <li>
               <Link href="/acerca">
                 <span
-                  className="md:text-black text-white hover:text-blue-600 font-medium text-md cursor-pointer"
+                  className="md:text-[#024383] text-white hover:underline font-medium text-md cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
                   Acerca
@@ -52,7 +54,7 @@ export default function Navbar() {
             <li>
               <Link href="/servicios">
                 <span
-                  className="md:text-black text-white hover:text-blue-600 font-medium text-md cursor-pointer"
+                  className="md:text-[#024383] text-white hover:underline font-medium text-md cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
                   Servicios
@@ -62,7 +64,7 @@ export default function Navbar() {
             <li>
               <Link href="/contacto">
                 <span
-                  className="md:text-black text-white hover:text-blue-600 font-medium text-md cursor-pointer"
+                  className="md:text-[#024383] text-white hover:underline font-medium text-md cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
                   Contacto
@@ -70,9 +72,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/preguntas-frecuentes" className='bg-blue-600 p-2 rounded-md'>
+              <Link href="/preguntas-frecuentes" className='bg-[#024383] p-2 rounded-md hover:border-[#024383] hover:border-solid hover:border-2 hover:bg-transparent transition-colors'>
                 <span
-                  className="text-white hover:text-blue-200 font-medium text-md cursor-pointer"
+                  className="text-white md:hover:text-[#024383] font-medium text-md cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
                   Preguntas Frecuentes

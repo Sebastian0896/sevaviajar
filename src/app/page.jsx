@@ -1,5 +1,12 @@
 import ServiciosPrincipales from '@/components/ServiciosPrincipales';
 
+export const metadata = {
+  title: "Sevaviajar",
+  description: "Consultoría Migratoria y Consular",
+  creator: "Sebastián González R.",
+  keywords: ["Consultoría migratoria", "Consultor migratorio", "Solicitud de visa", "Solicitud de pasaporte", "Asesoria migratoria"],
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">

@@ -2,6 +2,7 @@
 import Volver from '@/components/VolverServicios';
 import servicesData from '@/helpers/servicesData';
 
+
 export default async function Servicio( {params} ) {
   const slug = (await params).slug;
 
@@ -22,7 +23,7 @@ export default async function Servicio( {params} ) {
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         {/* Título del Servicio */}
-        <h1 className="text-4xl font-bold text-blue-600 mb-6">{servicio.nombre}</h1>
+        <h1 className="text-4xl font-bold text-[#024383] mb-6">{servicio.nombre}</h1>
 
         {/* Detalles del Servicio */}
         <div className="bg-white shadow-md rounded-lg p-6 space-y-4">

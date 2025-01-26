@@ -1,4 +1,9 @@
-
+export const metadata = {
+  title: "Sevaviajar | Acerca",
+  description: "Consultoría Migratoria y Consular",
+  creator: "Sebastian Gonzalez R.",
+  keywords: ["Fundador", "Sebastián González R.", "Sevaviajar", "Consultor migratorio", "Solicitud de visa", "Solicitud de pasaporte", "Asesoria migratoria"],
+};
 
 export default function Acerca() {
     return (

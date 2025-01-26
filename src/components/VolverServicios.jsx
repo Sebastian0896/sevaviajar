@@ -6,7 +6,7 @@ export default function Volver() {
         <div className="mt-8">
           <button
             onClick={() => router.push('/servicios')}
-            className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300"
+            className="bg-[#024383] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300"
           >
             Volver a Servicios
           </button>
