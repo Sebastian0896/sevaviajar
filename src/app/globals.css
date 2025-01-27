@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components{
+    .post h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #024383;
+        padding: 1rem 0;
+        margin-left: -1rem;
+    }
+    .post small{
+        font-size: .8rem;
+        font-weight: 500;
+        color: black;
+        
+    }
+    .post blockquote{
+        padding: .8rem;
+        margin: 1rem 0;
+        border-left: 2px solid #024383;
+    }
+
+    .post article ul li::marker{
+        content: '✅';
+        list-style-type: disc;
+        font-size: .8rem;
+    }
+    .post article ul li ul{
+        margin-left: 1.5rem;
+    }
+}

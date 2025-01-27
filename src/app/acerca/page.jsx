@@ -32,7 +32,7 @@ export default function Acerca() {
             </div>
             {/* Text */}
             <div className="w-full md:w-2/3 px-4 text-center md:text-left">
-              <h2 className="text-3xl font-bold mb-4">Fundador</h2>
+              <h2 className="text-3xl font-bold mb-4 text-[#024383]">Fundador</h2>
               <p className="text-black text-justify mb-4">
               <strong>Sebastián González Rodríguez</strong> es un ingeniero en sistemas con una pasión inesperada: ayudar a las personas a navegar el mundo de los trámites migratorios y consulares. Aunque su formación inicial estuvo enfocada en tecnología, Sebastián ha complementado sus conocimientos con capacitaciones especializadas en procesos migratorios y consulares, lo que le ha permitido transformar su curiosidad en una sólida vocación.
               </p>

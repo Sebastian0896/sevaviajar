@@ -1,4 +1,4 @@
-import { FaPassport, FaCalendarAlt, FaUserTie } from 'react-icons/fa';
+import { FaPassport, FaCalendarAlt, FaUserTie  } from 'react-icons/fa';
 import { MdAutorenew } from 'react-icons/md';
 import { GrVisa } from "react-icons/gr";
 

@@ -14,7 +14,7 @@ export default function FAQAccordion() {
   return (
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
-        <h2 className="text-3xl font-bold text-blue-600 mb-8">Preguntas Frecuentes</h2>
+        <h2 className="text-3xl font-bold text-[#024383] mb-8">Preguntas Frecuentes</h2>
         <div className="space-y-2">
           {faqData.map((faq, index) => (
             <div

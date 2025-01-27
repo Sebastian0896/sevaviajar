@@ -60,6 +60,17 @@ export default function Navbar() {
                   Servicios
                 </span>
               </Link>
+              
+            </li>
+            <li>
+            <Link href="/blog">
+                <span
+                  className="md:text-[#024383] text-white hover:underline font-medium text-md cursor-pointer"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Blog
+                </span>
+              </Link>
             </li>
             <li>
               <Link href="/contacto">

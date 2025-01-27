@@ -41,7 +41,7 @@ const servicesData = [
     },
     {
       slug: 'renovacion-de-pasaporte',
-      nombre: 'Renovació de Pasaporte',
+      nombre: 'Renovación de Pasaporte',
       descripcion: 'Gestionamos la renovación de tu pasaporte para adultos y menores.',
       requisitos: [
         'Foto 2x2.',

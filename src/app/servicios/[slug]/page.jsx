@@ -1,5 +1,5 @@
 
-import Volver from '@/components/VolverServicios';
+import Volver from '@/components/VolverComponente';
 import servicesData from '@/helpers/servicesData';
 
 
@@ -14,7 +14,7 @@ export default async function Servicio( {params} ) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold text-gray-700">Servicio no encontrado</h1>
-        <Volver />
+        <Volver volver="Servicios" />
       </div>
     );
   }
@@ -54,7 +54,7 @@ export default async function Servicio( {params} ) {
         </div>
 
         {/* Botón para Volver */}
-        <Volver />
+        <Volver volver="Servicios"/>
       </div>
     </section>
   );
