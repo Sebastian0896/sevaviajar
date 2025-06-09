@@ -10,7 +10,7 @@ export default function ServiciosPrincipales() {
           Nuestros Servicios Principales
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Servicio 1: Solicitud de visa B1/B2 */}
+          
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <GrVisa className="text-blue-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -20,7 +20,7 @@ export default function ServiciosPrincipales() {
               Te ayudamos a completar el proceso de solicitud de visa B1/B2, asegurando que todos los requisitos sean cumplidos.
             </p>
           </div>
-          {/* Servicio 2: Solicitud de pasaporte */}
+          
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <FaPassport className="text-red-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -30,7 +30,7 @@ export default function ServiciosPrincipales() {
               Asesoramos en la solicitud de pasaporte, ya sea por primera vez o en caso de renovación.
             </p>
           </div>
-          {/* Servicio 3: Asesoría personalizada */}
+          
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <FaUserTie className="text-purple-500 text-4xl mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">

@@ -16,19 +16,19 @@ const servicios = [
       slug: 'solicitud-de-pasaporte',
     },
     {
-      icon: <MdAutorenew className="text-green-500 text-4xl" />,
+      icon: <MdAutorenew className="text-purple-500 text-4xl" />,
       title: 'Renovación de Visa B1/B2',
       description: 'Facilitamos el proceso de renovación de tu visa de turista o negocios.',
       slug: 'renovacion-de-visa-b1b2',
     },
     {
-      icon: <FaPassport className="text-yellow-500 text-4xl" />,
+      icon: <FaPassport className="text-blue-600 text-4xl" />,
       title: 'Renovación de Pasaporte',
       description: 'Renueva tu pasaporte vencido o en mal estado, ya sea por pérdida, deterioro u otra razón.',
       slug: 'renovacion-de-pasaporte',
     },
     {
-      icon: <FaCalendarAlt className="text-blue-400 text-4xl" />,
+      icon: <FaCalendarAlt className="text-red-500 text-4xl" />,
       title: 'Reprogramación de Citas',
       description: 'Te ayudamos a reprogramar tus citas para visas o pasaportes según tu disponibilidad.',
       slug: 'reprogramacion-de-citas',

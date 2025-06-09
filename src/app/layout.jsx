@@ -12,6 +12,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className=""
+
+        cz-shortcut-listen="true"
       >
         <Header />
         {children}
