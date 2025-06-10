@@ -18,7 +18,7 @@ export default function Home() {
           <p className="md:text-2xl mb-8 text-white">
           En <strong className='text-red-600'>Sevaviajar</strong>, te guiamos en cada paso para que tus trámites de visa, pasaporte y asesorías migratorias sean más sencillos y eficientes. Nos enfocamos en brindarte la información y el apoyo que necesitas para avanzar con confianza hacia tus metas. ¡Comencemos juntos este camino!
           </p>
-          <a href="#servicios" className="px-6 py-3 bg-red-600 rounded-lg text-white hover:bg-blue-700">
+          <a href="#servicios" className="px-6 py-3 bg-red-600 rounded-lg text-white hover:bg-red-700">
             Descubre más
           </a>
         </div>
