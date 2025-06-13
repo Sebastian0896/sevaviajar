@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 
 
 import { GoogleAnalytics } from '@next/third-parties/google'
+import WhatsAppButton from "@/components/WhatsappButton";
 
 export default function RootLayout({ children }) {
   return (
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <WhatsAppButton />
         <Footer />
       </body>
       <GoogleAnalytics gaId="G-VTSHMQ4D54" />

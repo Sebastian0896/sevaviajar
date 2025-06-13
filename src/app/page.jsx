@@ -25,25 +25,6 @@ export default function Home() {
       </section>
 
       {/* Servicios */}
-      {/* <section id="servicios" className="py-16 bg-gray-100">
-        <div className="container mx-auto text-center">
-          <h3 className="text-3xl font-bold mb-6">Nuestros Servicios</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h4 className="text-xl font-bold mb-2">Solicitud de Visas</h4>
-              <p className="text-gray-600">Asesoría personalizada para obtener tu visa.</p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h4 className="text-xl font-bold mb-2">Pasaportes</h4>
-              <p className="text-gray-600">Ayuda en el proceso de solicitud y renovación.</p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h4 className="text-xl font-bold mb-2">Asesorías Especiales</h4>
-              <p className="text-gray-600">Resolvemos tus dudas migratorias.</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <ServiciosPrincipales />
 
       {/* Contacto */}
