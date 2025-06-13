@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         {children}
         <WhatsAppButton />
         {/* Botton de chat en escritorio por Chaty service */}
-        <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=8PJhUgCC"></script>
+        <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=fXdOgCJTwbRr"></script>
         <Footer />
       </body>
       <GoogleAnalytics gaId="G-VTSHMQ4D54" />
